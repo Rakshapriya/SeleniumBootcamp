@@ -2,6 +2,7 @@ package javaprograms;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Scanner;
 
 import org.testng.collections.Maps;
@@ -26,7 +27,13 @@ public class CharOccurencesCount {
 		 
 		 for( Map.Entry entry : map.entrySet()) {
 			 
-			 System.out.println(entry.getKey()+"-"+entry.getValue());
+			 System.out.println(entry.getKey()+"="+entry.getValue());
+			 
+			 }
+		 for( Map.Entry entry : map.entrySet()) {
+			 
+			 System.out.print(entry.getKey());
+			 System.out.print(entry.getValue());
 			 
 		 }
 
